@@ -38,14 +38,23 @@ html, body
           left: 45%
           transform: translate(-46%, 0%)
 
+    .sidenav
+      background: $dark-black
+
+      li
+        a
+          color: $cyan
+
     .bio-content
       margin-top: 30%
-      padding: 0 1em
+      padding: 0 2em
 
       h1, p
         color: $cyan
+        text-align: justify
 
       p:first-child
+        text-transform: capitalize
         font-size: 5em
         margin: 0
 
@@ -74,11 +83,14 @@ html, body
 
     .about-me-content
       height: 30vh
-      padding: 1em
+      padding: 2em
 
-      p
+      p, a
         color: $light-black
         font-weight: bold
+
+      a
+        color: $dark-cyan
 
   .showcase
     width: 30%
@@ -86,11 +98,14 @@ html, body
 
     .showcase-content
       height: 40vh
-      padding: 1em
+      padding: 2em
 
-      p
+      p, a
         color: $light-black
         font-weight: bold
+
+      a
+        color: $dark-cyan
 
     .showcase-image
       background-image: url("../images/Text Potrait bw.png")
@@ -99,3 +114,29 @@ html, body
       background-position: center
       background-repeat: no-repeat
       background-size: cover
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+  html, body
+    overflow: auto !important
+  .bio, .about-me, .showcase
+    width: 100% !important
+    height: 100% !important
+  .bio-content
+    margin-top: 0 !important
+    padding-bottom: 1em !important
+  .bio-footer
+    position: relative !important
+    margin-bottom: 2em !important
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
