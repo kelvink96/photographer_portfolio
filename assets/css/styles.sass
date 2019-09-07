@@ -24,6 +24,7 @@ html, body
 //set h5 tags to weight of 600
 h5
   font-weight: 600
+
 .wrapper
   .bio
     width: 40%
@@ -40,6 +41,12 @@ h5
           position: absolute
           left: 45%
           transform: translate(-46%, 0%)
+
+          li
+            a
+              &:hover,
+              &:focus
+                color: $cyan
 
     .sidenav-trigger
       i

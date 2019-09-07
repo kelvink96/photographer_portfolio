@@ -33,6 +33,9 @@ h5 {
   left: 45%;
   transform: translate(-46%, 0%);
 }
+.wrapper .bio nav .nav-wrapper ul li a:hover, .wrapper .bio nav .nav-wrapper ul li a:focus {
+  color: #66FCF1;
+}
 .wrapper .bio .sidenav-trigger i {
   color: #66FCF1;
 }
