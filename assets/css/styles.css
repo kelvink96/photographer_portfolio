@@ -120,15 +120,23 @@ html, body {
     height: 100% !important;
   }
 
-  .bio-content {
+  .bio .bio-content {
     margin-top: 0 !important;
-    padding: 2em 2em 1em 2em !important;
+    padding: 1em !important;
   }
-
-  .bio-footer {
+  .bio .bio-footer {
     text-align: center;
     position: relative !important;
     margin: 0 0 2em 0 !important;
+  }
+
+  .about-me .about-me-content {
+    padding: 1em !important;
+  }
+
+  .showcase .showcase-content {
+    padding: 1em !important;
+    height: 30vh !important;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
