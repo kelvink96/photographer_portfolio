@@ -14,6 +14,10 @@ html, body {
   min-height: 1px;
 }
 
+h5 {
+  font-weight: 600;
+}
+
 .wrapper .bio {
   width: 40%;
   height: 100vh;
@@ -80,7 +84,7 @@ html, body {
 }
 .wrapper .about-me .about-me-content p, .wrapper .about-me .about-me-content a {
   color: #202833;
-  font-weight: bold;
+  font-weight: 500;
 }
 .wrapper .about-me .about-me-content a {
   color: #46A29F;
@@ -95,7 +99,7 @@ html, body {
 }
 .wrapper .showcase .showcase-content p, .wrapper .showcase .showcase-content a {
   color: #202833;
-  font-weight: bold;
+  font-weight: 500;
 }
 .wrapper .showcase .showcase-content a {
   color: #46A29F;
