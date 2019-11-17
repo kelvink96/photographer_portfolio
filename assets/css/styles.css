@@ -84,7 +84,7 @@ h5 {
   height: 100vh;
 }
 .wrapper .about-me .about-me-img-container {
-  background-image: url("../../../../assets/images/artist portfolio.png");
+  background-image: url("../../../../assets/images/tattofy.jpg");
   height: 70vh;
   width: 100%;
   background-position: center;
@@ -128,7 +128,7 @@ h5 {
   transition: all ease 150ms;
 }
 .wrapper .showcase .showcase-image {
-  background-image: url("../../../../assets/images/Text Potrait bw.png");
+  background-image: url("../../../../assets/images/27th_oct_2019._5.jpg");
   height: 60vh;
   width: 100%;
   background-position: center;
