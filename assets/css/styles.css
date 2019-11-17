@@ -84,7 +84,7 @@ h5 {
   height: 100vh;
 }
 .wrapper .about-me .about-me-img-container {
-  background-image: url("../images/artist portfolio.png");
+  background-image: url("../../../../assets/images/artist portfolio.png");
   height: 70vh;
   width: 100%;
   background-position: center;
@@ -128,7 +128,7 @@ h5 {
   transition: all ease 150ms;
 }
 .wrapper .showcase .showcase-image {
-  background-image: url("../images/Text Potrait bw.png");
+  background-image: url("../../../../assets/images/Text Potrait bw.png");
   height: 60vh;
   width: 100%;
   background-position: center;
