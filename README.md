@@ -1,5 +1,7 @@
 # photographer_portfolio
 
+![alt text](screenshots/laptop_screen.png)
+
 Vendor assets include: <br>
 
 **Css**
